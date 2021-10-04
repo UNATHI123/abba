@@ -1,7 +1,9 @@
 body{
     background-image: url(slifejpg );
+    background-size: cover;
     color:white;
 }
+
 
 ul {
 
@@ -15,10 +17,6 @@ ul {
     padding: 0;
     
     /* The overflow property specifies what should happen if content overflows an element's box. */
-    overflow: hidden;
-    
-    
-    
 }
 /* The <li> tag is used inside ordered lists(<ol>), unordered lists (<ul>), and in menu lists (<menu>). */
 li {
@@ -31,16 +29,16 @@ li {
 li a {
     /* The display property specifies the display behavior (the type of rendering box) of an element. */
     display: block;
+
     
     /*  */
     color: white;
     
     /* The text-align property specifies the horizontal alignment of text in an element. */
-    text-align: center;
+    text-align:center;
     
     /* The CSS padding properties are used to generate space around an element's content, inside of any defined borders. */
-    padding: 14px 16px;
-    
+    padding: 22px 20px;
     /* The text-decoration property specifies the decoration added to text */
     text-decoration: none;
 }
@@ -53,4 +51,7 @@ li a:hover {
 li a .active {
     /*  */
     background-color: #111;
+    width: fit-content;
 }
+
+
