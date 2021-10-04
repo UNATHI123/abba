@@ -1,5 +1,5 @@
 body{
-    background-image: url(index.jpeg);
+    background-image: url(slifejpg );
     color:white;
 }
 
@@ -18,11 +18,13 @@ ul {
     overflow: hidden;
     
     
+    
 }
 /* The <li> tag is used inside ordered lists(<ol>), unordered lists (<ul>), and in menu lists (<menu>). */
 li {
     /* The float property is used for positioning and formatting content e.g. let an image float left to the text in a container. */
     float: left;
+    background-color:blue;
 
 }
 /* The <a> tag defines a hyperlink, which is used to link from one page to another. */
