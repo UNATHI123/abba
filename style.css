@@ -1,8 +1,11 @@
 body{
-    background-image: url(slifejpg );
+    background-image: url("slife.jpeg");
     background-size: cover;
-    color:white;
-}
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: large;
+  }
 
 
 ul {
@@ -22,7 +25,7 @@ ul {
 li {
     /* The float property is used for positioning and formatting content e.g. let an image float left to the text in a container. */
     float: left;
-    background-color:blue;
+    background-color:crimson;
 
 }
 /* The <a> tag defines a hyperlink, which is used to link from one page to another. */
@@ -38,7 +41,7 @@ li a {
     text-align:center;
     
     /* The CSS padding properties are used to generate space around an element's content, inside of any defined borders. */
-    padding: 22px 20px;
+    padding: 30px 30px;
     /* The text-decoration property specifies the decoration added to text */
     text-decoration: none;
 }
@@ -58,6 +61,7 @@ li a .active {
 
 .image {
     float: left;
+    
 }
 
 .paragraph {
@@ -114,4 +118,9 @@ li a .active {
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap:40px;
+  }
+
+  .imagetext {
+    display: block;
+
   }
